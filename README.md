@@ -8,6 +8,12 @@ This repository is designed to test MapReduce jobs using a simple word count dat
 
 2. Reducer Logic: Using the output of Mapper logic we increase a variable sum value as we encounter same words and retun them. this way we will get a list of words and the number of times it occured in the input file as output.
 
+## Challenges I Faced
+I would say I was not having big challenges particular to the Hands-on because the Everything was installed in my system (Including the Amazon Corretto JDK and Maven). One small problem is the input.txt file was not reading when the hadoop system was running. So, the output was not printing. I was fixing it, by restarting the system.
+
+## Solutions for the Hands-On
+When the JDK and Maven is installed, We are going to run the commands which are there in the README.md file. The input.txt file which is present in the shared folder of the java project, we are going make the changes in the input.txt and get output for that. The output will be count of the text which is there in the input.txt file. All the steps are going to be documented in the README.md file.
+
 ## Setup and Execution
 
 ### 1. **Start the Hadoop Cluster**
